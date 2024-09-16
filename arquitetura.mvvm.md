@@ -1,11 +1,11 @@
-<h2>Arquitetura MVVM no Desenvolvimento Mobile</h2><br><br><br>
+<h2>Arquitetura MVVM no Desenvolvimento Mobile</h2><br><br>
 
 <h3>Introdução</h3>
 O desenvolvimento de aplicativos móveis tem passado por grandes mudanças ao longo dos anos, com a necessidade crescente de criar interfaces de usuário mais dinâmicas e ricas em interações, ao mesmo tempo em que se mantém a qualidade e a escalabilidade do código. Nesse cenário, a arquitetura MVVM (Model-View-ViewModel) emergiu como uma das soluções mais eficazes para garantir a manutenção da qualidade, testabilidade e modularidade dos aplicativos. Utilizada amplamente em plataformas como Android, essa arquitetura permite que desenvolvedores criem aplicações mais robustas e organizadas.
 
 Neste trabalho, discutiremos o funcionamento do MVVM, sua origem, o propósito para o qual foi criado, os problemas que ele resolve e, finalmente, suas limitações. Nosso foco principal será o uso do MVVM no desenvolvimento Android, mas os conceitos apresentados são aplicáveis a outras plataformas.
 
-<br><br>
+<br>
 <h3>Funcionamento da Arquitetura MVVM</h3>
 A arquitetura MVVM organiza a estrutura de um aplicativo em três componentes principais, cada um com papéis bem definidos:
 
@@ -36,7 +36,7 @@ A ViewModel solicita dados ao Model.
 O Model fornece os dados processados à ViewModel.
 A ViewModel transforma esses dados e os disponibiliza em um formato observável para a View.
 A View, observando as mudanças, exibe os dados na interface de usuário e, em caso de interação do usuário, notifica a ViewModel, que pode acionar novamente o Model, se necessário.
-<br><br>
+<br>
 Origem do MVVM
 A arquitetura MVVM foi criada pela Microsoft em 2005, como uma extensão da arquitetura MVC (Model-View-Controller). O objetivo inicial era utilizá-la no desenvolvimento de interfaces gráficas com o WPF (Windows Presentation Foundation) e o Silverlight, duas tecnologias de desenvolvimento de UI baseadas em XAML. A ideia central era facilitar o processo de data binding, ou seja, a sincronização automática entre a UI e os dados subjacentes.
 
@@ -44,7 +44,7 @@ A arquitetura MVVM nasceu como uma tentativa de resolver alguns dos problemas qu
 
 No desenvolvimento mobile, especialmente no Android, o MVVM ganhou popularidade com a introdução dos Android Architecture Components, parte do framework Jetpack, que facilitam a implementação da arquitetura. Componentes como LiveData, ViewModel e Data Binding fazem parte de um conjunto de ferramentas que tornam a adoção do MVVM mais simples e direta no desenvolvimento Android.
 
-<br><br>
+<br>
 <h3>Propósito do MVVM</h3>
 O principal propósito do MVVM é promover uma clara separação de responsabilidades entre a interface de usuário e a lógica de negócio, algo que muitas vezes se torna confuso em projetos complexos. Essa separação oferece uma série de vantagens, como:
 
@@ -58,7 +58,7 @@ Reutilização de código: O ViewModel pode ser reutilizado em diferentes partes
 
 Gerenciamento de ciclo de vida no Android: O ViewModel preserva o estado da UI durante mudanças de configuração (como rotação de tela), o que facilita o desenvolvimento e elimina a necessidade de salvar e restaurar manualmente o estado da interface.
 
-<br><br>
+<br>
 <h3>Problemas que o MVVM Resolve</h3>
 A adoção do MVVM no desenvolvimento de aplicativos móveis resolve uma série de problemas que surgem quando a interface de usuário e a lógica de negócio estão fortemente acopladas. Alguns dos principais problemas resolvidos pelo MVVM são:
 
@@ -77,7 +77,7 @@ A arquitetura MVVM, com o uso do ViewModel, resolve problemas comuns no Android 
 5. Atualização manual da interface
 Sem o MVVM, o desenvolvedor geralmente precisa escrever código adicional para garantir que a interface de usuário seja atualizada corretamente quando os dados mudam. O MVVM, ao utilizar LiveData ou ferramentas semelhantes, permite que a UI seja atualizada de forma automática, eliminando essa preocupação.
 
-<br><br>
+<br>
 <h3>Problemas que Ainda Existem no MVVM</h3>
 Embora o MVVM resolva muitos problemas, ele também apresenta algumas limitações e desafios que precisam ser considerados:
 
@@ -93,9 +93,9 @@ Embora a reatividade seja uma vantagem do MVVM, ela também pode ser um ponto de
 4. Excesso de boilerplate
 Em alguns casos, o MVVM pode levar a um código boilerplate (repetitivo) excessivo, especialmente ao lidar com LiveData e ViewModels. A escrita repetitiva de código pode aumentar a complexidade sem agregar valor direto ao projeto.
 
-<br><br>
+<br>
 <h3>Conclusão</h3>
-A arquitetura MVVM provou ser uma solução eficaz para muitos dos desafios enfrentados no desenvolvimento mobile moderno, especialmente em plataformas como Android. Ao promover uma separação clara entre a interface de usuário, a lógica de apresentação e a lógica de negócio, o MVVM facilita a manutenção, escalabilidade e testabilidade dos aplicativos.
+  A arquitetura MVVM provou ser uma solução eficaz para muitos dos desafios enfrentados no desenvolvimento mobile moderno, especialmente em plataformas como Android. Ao promover uma separação clara entre a interface de usuário, a lógica de apresentação e a lógica de negócio, o MVVM facilita a manutenção, escalabilidade e testabilidade dos aplicativos.
 
 No entanto, como toda solução arquitetural, o MVVM não é perfeito e pode apresentar desafios, especialmente em termos de curva de aprendizado e implementação em projetos pequenos. Para desenvolvedores que buscam modularidade, reatividade e separação de responsabilidades, o MVVM é uma escolha poderosa, mas deve ser considerado no contexto das necessidades e complexidade do projeto.
 
