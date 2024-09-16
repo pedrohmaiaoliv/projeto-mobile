@@ -1,5 +1,7 @@
+<div style="text-align: justify;">
+  
 <h2>Arquitetura MVVM no Desenvolvimento Mobile</h2><br><br>
-<div style="text-align: justify;>
+
 <h3>Introdução</h3>
 O desenvolvimento de aplicativos móveis tem passado por grandes mudanças ao longo dos anos, com a necessidade crescente de criar interfaces de usuário mais dinâmicas e ricas em interações, ao mesmo tempo em que se mantém a qualidade e a escalabilidade do código. Nesse cenário, a arquitetura MVVM (Model-View-ViewModel) emergiu como uma das soluções mais eficazes para garantir a manutenção da qualidade, testabilidade e modularidade dos aplicativos. Utilizada amplamente em plataformas como Android, essa arquitetura permite que desenvolvedores criem aplicações mais robustas e organizadas.
 
