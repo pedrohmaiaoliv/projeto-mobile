@@ -1,9 +1,11 @@
 # projeto-mobile
-repositorio para o projeto mobile referente a materia de desenvolvimento mobile de David
+Repositorio referente ao projeto da materia 'Projeto Integrador 4' ministrado pelo professor David Vasconcelos Leal da Faculdade Nova Roma.
 ### ARQUITETURA MVVM
 
 Equipe:<br>
-        Larissa Beatriz <br>
-        Marcella Carvalho <br>
-        Pedro Oliveira
-        
+        Larissa Beatriz Aguiar Branco <br>
+        Marcella Maria de Carvalho Bezerra <br>
+        Pedro Henrique Maia Oliveira <br>
+
+Link da Apresentacao:<br>
+https://www.youtube.com/watch?v=DBCzFN2llLo
