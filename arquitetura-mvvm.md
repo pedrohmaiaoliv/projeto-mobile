@@ -14,7 +14,7 @@ A arquitetura MVVM organiza a estrutura de um aplicativo em três componentes pr
 
 O Model é a camada responsável por gerenciar os dados da aplicação e a lógica de negócio. Ele pode se conectar a várias fontes de dados, como APIs, serviços web e bancos de dados locais. No Android, é comum utilizar bibliotecas como o Room (para bancos de dados locais) e o Retrofit (para comunicação com APIs) nessa camada.
 
-A função do Model vai além de simplesmente fornecer dados. Ele também deve encapsular toda a lógica de manipulação desses dados, sem depender diretamente de como esses dados serão exibidos. Esse isolamento entre o Model e a interface de usuário é um dos princípios fundamentais do MVVM.
+Além de fornecer dados, ele encapsula toda a lógica de manipulação desses dados, sem depender diretamente de como esses dados serão exibidos. Esse isolamento entre o Model e a interface de usuário é um dos princípios fundamentais do MVVM.
 
 **2. View (Visão)**
 
