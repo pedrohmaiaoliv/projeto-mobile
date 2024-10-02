@@ -2,9 +2,9 @@
 
 ### Introdução
 
-O desenvolvimento de aplicativos móveis tem passado por grandes mudanças ao longo dos anos, com a necessidade crescente de criar interfaces de usuário mais dinâmicas e ricas em interações, ao mesmo tempo em que se mantém a qualidade e a escalabilidade do código. Nesse cenário, a arquitetura MVVM (Model-View-ViewModel) emergiu como uma das soluções mais eficazes para garantir a manutenção da qualidade, testabilidade e modularidade dos aplicativos. Utilizada amplamente em plataformas como Android, essa arquitetura permite que desenvolvedores criem aplicações mais robustas e organizadas.
+Ao longo dos tempos, houvesse a demanda de criar interfaces para usuários de maneira mais dinâmica e rica em interações, sem perder a qualidade e a evolução dos códigos em aplicações móveis. Para resolver esses problemas, surgiu a arquitetura MVVM (Model-View-ViewModel), na qual foi a mais adequada para garantir a manutenção da qualidade, da testabilidade e da modularidade das aplicações móveis. Sendo bastante utilizada em plataformas como Android e WPF.
 
-Neste trabalho, discutiremos o funcionamento do MVVM, sua origem, o propósito para o qual foi criado, os problemas que ele resolve e, finalmente, suas limitações. Nosso foco principal será o uso do MVVM no desenvolvimento Android, mas os conceitos apresentados são aplicáveis a outras plataformas.
+Neste trabalho, falaremos sobre o funcionamento da arquitetura MVVM, sua origem, o propósito para o qual foi criada, os problemas que a arquitetura resolve e, por fim, suas limitações. Nosso foco principal será o uso do MVVM no desenvolvimento Android, mas os conceitos apresentados são aplicáveis as suas outras plataformas também.
 
 ### Funcionamento da Arquitetura MVVM
 
